@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.heading {
+  font-family: "Roboto";
+}
+.notifications-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notification-box {
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 400px;
+  color: white;
+  font-family: "Roboto";
+  margin: 16px 0px;
+  padding: 0px 16px;
+}
+.message {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: white;
+}
+.icon-image {
+  height: 15px;
+  margin-right: 5px;
+}
+.information {
+  background-color: #0b69ff;
+}
+.success {
+  background-color: #2dca73;
+}
+.warning {
+  background-color: #ffb800;
+}
+.error {
+  background-color: #ff0b37;
+}

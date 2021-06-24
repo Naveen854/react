@@ -1,0 +1,60 @@
+.interview-questions-app-container {
+  min-height: 100px;
+  width: 100vw;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #180d5b;
+  width: 100vw;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Playfair Display';
+  text-align: center;
+}
+.header-img {
+  height: 200px;
+  width: 300px;
+}
+.body-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.interview-question-container {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin: 20px 0px;
+  width: 90vw;
+}
+
+@media screen and (min-width: 768px) {
+  .header-section {
+    height: 250px;
+    /* padding: 0px 30px; */
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-section {
+    justify-content: center;
+  }
+  .heading {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-section {
+  }
+  .heading {
+    font-size: 50px;
+    margin-right: 100px;
+  }
+}

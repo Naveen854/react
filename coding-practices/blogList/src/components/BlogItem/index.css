@@ -1,0 +1,26 @@
+.blog-item-container {
+  padding: 10px;
+}
+.blog-item-header {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  color: #12022f;
+  font-size: 20px;
+}
+.published-date {
+  color: #616e7c;
+  font-size: 18px;
+  font-weight: 600;
+}
+.description {
+  color: #9aa5b1;
+  font-size: 16px;
+}
+hr {
+  height: 1px;
+  margin: 0;
+  background-color: #9aa5b1;
+  opacity: 0.2;
+}

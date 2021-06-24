@@ -1,0 +1,38 @@
+.social-media-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffffff35;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .social-media-section {
+    height: 10vh;
+    flex-wrap: nowrap;
+    margin-bottom: 0px;
+    margin-left: 32px;
+  }
+}
+
+.app-logo {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 576px) {
+  .app-logo {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+  }
+}

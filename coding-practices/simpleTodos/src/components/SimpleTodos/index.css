@@ -1,0 +1,25 @@
+.app-container {
+  background-color: #ff8542;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todo-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90vw;
+}
+.heading {
+  margin-top: 0px 0px 20px 0px;
+  font-size: 40px;
+  font-weight: 800;
+  color: #ff8542;
+  text-align: center;
+}
+.todo-items-container {
+  padding: 0;
+}

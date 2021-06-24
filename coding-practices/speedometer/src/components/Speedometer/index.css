@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 36px;
+}
+.speedometer-image {
+  width: 60%;
+}
+.speed-indicator {
+  font-size: 24px;
+  color: #cbd5e1;
+}
+.speed-limits {
+  color: #94a3b8;
+}
+.accelerate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 10px;
+  height: 40px;
+}
+.break-button {
+  background-color: #07080c;
+  color: #94a3b8;
+  padding: 8px 16px;
+  border: 2px solid #94a3b8;
+  border-radius: 5px;
+  margin-right: 10px;
+  height: 40px;
+}

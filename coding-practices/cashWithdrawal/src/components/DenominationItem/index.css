@@ -1,0 +1,18 @@
+.denomination-item {
+  display: flex;
+  border-radius: 5px;
+  margin: 0px 10px 10px 0px;
+  flex: 1 0 100px;
+}
+.button {
+  text-align: center;
+  width: 100%;
+  color: #d4d2db;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  height: 30px;
+  padding: 8px 16px;
+  border: 1px solid #d4d2db;
+  background-color: #585076;
+}

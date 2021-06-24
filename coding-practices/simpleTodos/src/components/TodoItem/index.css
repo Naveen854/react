@@ -1,0 +1,20 @@
+.todo-item {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo {
+  color: #000000;
+  font-size: 18px;
+}
+.delete-todo-button {
+  height: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid #ff0b37;
+  background: #ffffff;
+  color: #ff0b37;
+  font-size: 16px;
+}

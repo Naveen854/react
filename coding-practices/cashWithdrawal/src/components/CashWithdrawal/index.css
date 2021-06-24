@@ -1,0 +1,74 @@
+.app-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.cash-withdrawal-container {
+  width: 350px;
+  background-color: #150b3e;
+  padding: 40px;
+  border-radius: 10px;
+}
+.user-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 18px;
+  color: #150b3e;
+  font-weight: bold;
+}
+
+.user-name {
+  color: #c7d2fe;
+  font-size: 18px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.balance-text,
+.choosing-denominations-text {
+  color: #585076;
+  font-weight: bold;
+}
+.balance-amount {
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.caption-text {
+  color: #585076;
+  font-size: 12px;
+}
+.withdrawal-section {
+}
+.withdraw {
+  color: #ffffff;
+}
+..choosing-denominations-text {
+  font-weight: normal;
+}
+.denominations-container {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

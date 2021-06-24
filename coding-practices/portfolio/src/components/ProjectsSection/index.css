@@ -1,0 +1,58 @@
+.projects-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .projects-heading {
+    font-size: 32px;
+  }
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .projects-list {
+    max-width: 750px;
+    justify-content: flex-start;
+  }
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .project-item {
+    width: 40%;
+  }
+}
+
+.project-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .project-image {
+    height: 185px;
+  }
+}
+
+.project-name {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+}

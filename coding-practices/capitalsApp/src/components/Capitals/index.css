@@ -1,0 +1,31 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #93c5fd;
+}
+
+.capitals-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.from-control {
+}
+
+#capitals {
+  height: 30px;
+}
+
+.form-label {
+  margin-left: 10px;
+}
+
+.capital-text {
+  text-align: left;
+}

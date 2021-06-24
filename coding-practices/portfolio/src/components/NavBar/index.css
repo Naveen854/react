@@ -1,0 +1,90 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff35;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  margin-top: 64px;
+  margin-bottom: 32px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    width: 20%;
+    min-width: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: stretch;
+  }
+}
+
+.profile-image {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+
+.nav-items-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-items-list {
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+  }
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 4px;
+  cursor: pointer;
+  list-style-type: none;
+  width: 45%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-item {
+    width: 100%;
+  }
+}
+
+.active-item {
+  background-color: #ffffff20;
+}
+
+.item-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.item-name {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0px;
+}

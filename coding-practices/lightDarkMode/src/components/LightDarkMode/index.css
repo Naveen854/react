@@ -1,0 +1,30 @@
+.dark-light-mode-container {
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+}
+.heading {
+  font-size: 36px;
+  font-family: 'Roboto';
+}
+.button {
+  border: 0;
+  border-radius: 10px;
+  height: 40px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}

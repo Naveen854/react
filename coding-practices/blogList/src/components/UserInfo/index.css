@@ -1,0 +1,24 @@
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+.profile {
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+}
+.username {
+  color: #12022f;
+  font-size: 20px;
+}
+.designation {
+  color: #616e7c;
+  font-size: 14px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+}

@@ -1,0 +1,45 @@
+/* Write your code here. */
+.gallery-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 300px;
+}
+.gallery-image {
+  height: 200px;
+  width: 100%;
+  align-self: center;
+}
+.heading {
+  margin: 5px 0px;
+  color: #1e293b;
+  font-size: 30px;
+}
+.description {
+  color: #64748b;
+  font-size: 16px;
+}
+.thumbnail-items-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+@media (min-width: 768px) {
+  .gallery-image-container {
+    width: 600px;
+  }
+  .gallery-image {
+    min-height: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  .gallery-image-container {
+    width: 750px;
+  }
+  .gallery-image {
+    min-height: 500px;
+  }
+}

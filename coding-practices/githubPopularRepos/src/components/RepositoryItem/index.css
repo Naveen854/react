@@ -1,0 +1,46 @@
+.repository-item {
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  width: 60vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 20px 0px;
+}
+.repository-image {
+  height: 80px;
+  width: 80px;
+}
+.repository-name {
+  color: ;
+  font-size: ;
+  font-family: 'Roboto';
+  color: #e73959;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.stars-count,
+.forks-count,
+.issues-count {
+  font-weight: 600;
+  color: #1e293b;
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+}
+.star-image,
+.fork-image,
+.issue-image {
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .repository-item {
+    width: 250px;
+    margin: 0px 20px 20px 0px;
+  }
+}

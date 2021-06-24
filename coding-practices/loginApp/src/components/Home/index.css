@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.login-app-container {
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

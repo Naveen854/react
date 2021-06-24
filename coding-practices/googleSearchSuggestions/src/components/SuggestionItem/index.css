@@ -1,0 +1,19 @@
+.suggestion-item {
+  padding: 0;
+  margin: 2px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.suggestion-button {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.suggestion-icon {
+  height: 20px;
+  width: 20px;
+}

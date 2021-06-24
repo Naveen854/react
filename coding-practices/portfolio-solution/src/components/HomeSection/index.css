@@ -1,0 +1,63 @@
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.username {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .username {
+    font-size: 32px;
+  }
+}
+
+.designation {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .designation {
+    font-size: 24px;
+  }
+}
+
+.experience-description {
+  text-align: center;
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .experience-description {
+    font-size: 20px;
+  }
+}
+
+.view-resume-btn {
+  color: #f43f5e;
+  background-color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  outline: none;
+}

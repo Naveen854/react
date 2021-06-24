@@ -1,0 +1,40 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-container {
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1250px;
+  }
+}
+
+.portfolio-body {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-body {
+    width: 70%;
+  }
+}
+
+.active-section {
+  display: flex;
+  background-color: #ffffff35;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .active-section {
+    height: 74vh;
+    margin-left: 32px;
+    padding: 32px;
+  }
+}

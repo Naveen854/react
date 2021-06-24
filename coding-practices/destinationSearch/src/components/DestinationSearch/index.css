@@ -1,0 +1,38 @@
+.app-container {
+  height: 100vh;
+}
+.app-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-size: 30px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.input-container {
+  height: 30px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.destination-search {
+  height: 100%;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #f1f5f9;
+}
+.search-icon {
+  height: 100%;
+}
+.destination-cards-container {
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+}
