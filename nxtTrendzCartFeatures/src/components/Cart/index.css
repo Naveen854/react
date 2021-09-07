@@ -1,0 +1,67 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.heading-remove-all-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+.heading-remove-all-cart-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.remove-all-cart-items-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #0b69ff;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .remove-all-cart-items-button {
+    font-size: 32px;
+  }
+}

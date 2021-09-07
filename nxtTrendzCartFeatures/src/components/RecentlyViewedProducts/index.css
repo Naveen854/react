@@ -1,0 +1,17 @@
+.recently-viewed-products-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.recently-viewed-products-content {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1110px;
+}

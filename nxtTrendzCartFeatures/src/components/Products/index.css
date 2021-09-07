@@ -1,0 +1,32 @@
+.product-sections {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  max-width: 1110px;
+}
+
+.products-recently-viewed-products-container {
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 90%;
+  max-width: 1110px;
+}
+
+.separator {
+  width: 90%;
+  max-width: 1110px;
+}
+
+.tab-buttons {
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: normal;
+  background-color: #9f00ff;
+  margin-right: 10px;
+}
